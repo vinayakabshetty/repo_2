@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import utilities.DriverFactory;
 import utilities.TestBase;
 
-public class Amazon extends TestBase {
+public class Flipkart extends TestBase {
 	
 	@Test
 	public void navigateToHomePage() {
