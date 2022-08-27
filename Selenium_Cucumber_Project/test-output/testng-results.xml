@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-26T15:06:36 IST" name="Suite" finished-at="2022-08-26T15:06:41 IST" duration-ms="4678">
+    <groups>
+    </groups>
+    <test started-at="2022-08-26T15:06:36 IST" name="Test" finished-at="2022-08-26T15:06:41 IST" duration-ms="4678">
+      <class name="testcases.FluentWaitExample">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testcases.FluentWaitExample@5e0e82ae]" started-at="2022-08-26T15:06:36 IST" name="setUpBrowser" finished-at="2022-08-26T15:06:38 IST" duration-ms="1796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="fluentWaitMethod()[pri:0, instance:testcases.FluentWaitExample@5e0e82ae]" started-at="2022-08-26T15:06:38 IST" name="fluentWaitMethod" finished-at="2022-08-26T15:06:41 IST" duration-ms="2844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitMethod -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.FluentWaitExample@5e0e82ae]" started-at="2022-08-26T15:06:41 IST" name="quitBrowser" finished-at="2022-08-26T15:06:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.FluentWaitExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
