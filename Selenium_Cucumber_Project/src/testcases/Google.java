@@ -22,6 +22,8 @@ public class Google extends TestBase {
 		WebDriver driver = DriverFactory.getInstance().getDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
+
+// Test git tracking
 	}
 
 	@Test
