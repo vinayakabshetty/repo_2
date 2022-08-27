@@ -24,6 +24,7 @@ public class Google extends TestBase {
 		driver.manage().window().maximize();
 
 // Test git tracking
+		// added from remote git
 	}
 
 	@Test
