@@ -14,7 +14,7 @@ public class TestBase extends BrowserFactory {
 
 	@AfterMethod
 	public void quitBrowser() {
-		//DriverFactory.getInstance().getDriver().quit();
+		DriverFactory.getInstance().getDriver().quit();
 		DriverFactory.getInstance().removeThread();
 	}
 }

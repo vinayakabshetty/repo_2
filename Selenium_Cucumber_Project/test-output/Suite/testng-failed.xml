@@ -4,13 +4,13 @@
   <parameter name="browserType" value="chrome"/>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="testcases.FluentWaitExample">
+      <class name="testcases.HighlightHtmlElement">
         <methods>
           <include name="setUpBrowser"/>
           <include name="quitBrowser"/>
-          <include name="fluentWaitMethod"/>
+          <include name="highlight"/>
         </methods>
-      </class> <!-- testcases.FluentWaitExample -->
+      </class> <!-- testcases.HighlightHtmlElement -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

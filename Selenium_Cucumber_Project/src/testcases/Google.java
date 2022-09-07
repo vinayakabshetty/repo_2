@@ -22,10 +22,7 @@ public class Google extends TestBase {
 		WebDriver driver = DriverFactory.getInstance().getDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
-
-// Test git tracking
-		// added from remote git
-	}
+	}	
 
 	@Test
 	public void search() throws InterruptedException {

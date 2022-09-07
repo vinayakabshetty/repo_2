@@ -8,7 +8,7 @@ import utilities.TestBase;
 
 public class Amazon extends TestBase {
 	
-	@Test
+	@Test(enabled=false)
 	public void navigateToHomePage() {
 		WebDriver driver = DriverFactory.getInstance().getDriver();
 		driver.get("https://www.amazon.in");

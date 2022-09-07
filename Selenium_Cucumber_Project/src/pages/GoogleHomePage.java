@@ -17,6 +17,9 @@ public class GoogleHomePage {
 	@FindBy(how = How.XPATH, using = "//a//h3")
 	public List<WebElement> searchResults;
 	
+	@FindBy(how = How.XPATH, using = "//a")
+	public List<WebElement> allLinks;
+	
 	public GoogleHomePage(final WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}

@@ -1,7 +1,12 @@
 /client_selenium_java_jars/
+/cucumberRunner/
 /drivers/
 /feature/
 /grid/
 /jars/
+/javaProgramsToPractise/
+/pages/
 /resources/
+/stepDefinition/
 /testcases/
+/utilities/
