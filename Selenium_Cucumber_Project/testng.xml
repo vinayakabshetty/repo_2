@@ -4,7 +4,7 @@
 	<parameter name="browserType" value="chrome"></parameter>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="testcases.HighlightHtmlElement" />
+			<class name="testcases.Google" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

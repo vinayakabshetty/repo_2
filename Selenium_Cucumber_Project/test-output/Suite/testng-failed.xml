@@ -4,13 +4,13 @@
   <parameter name="browserType" value="chrome"/>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="testcases.HighlightHtmlElement">
+      <class name="testcases.Google">
         <methods>
           <include name="setUpBrowser"/>
           <include name="quitBrowser"/>
-          <include name="highlight"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- testcases.HighlightHtmlElement -->
+      </class> <!-- testcases.Google -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

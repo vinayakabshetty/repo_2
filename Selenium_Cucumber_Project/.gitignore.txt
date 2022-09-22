@@ -1,0 +1,9 @@
+.project
+.classpath
+/target/
+/.settings/
+/dependency-reduced-pom.xml
+/nbproject/
+/.metadata/
+/logs/
+.vscode/

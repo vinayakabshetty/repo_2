@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="testcases.Amazon">
+      <class name="testcases.Google">
         <methods>
           <include name="setUpBrowser"/>
           <include name="quitBrowser"/>
-          <include name="navigateToNoWhere"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- testcases.Amazon -->
+      </class> <!-- testcases.Google -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
